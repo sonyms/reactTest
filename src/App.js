@@ -8,13 +8,14 @@ import { initContact } from './components/features/contactsSlice'
 
 function App() {
 
+  //This is a test commit and push
 
   const LOCAL_STORAGE_KEY = "contacts";
 
   const contacts = useSelector((state) => state.contacts.value);
 
   const dispatch = useDispatch();
-  
+
 
   useEffect(() => {
 
